@@ -7,10 +7,10 @@ import {
 }
 from './components/index.paginas';
 
-const app_routes: Routes = [
-  { path: '', component: HomeComponent },
+const APP_ROUTES: Routes = [
   { path: 'main', component: MainComponent },
-  { path: '**', pathMatch: 'full', redirectTo: '' }
+  { path: 'home', component: HomeComponent },
+  { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
-export const app_routing = RouterModule.forRoot(app_routes, { useHash: true});
+export const APP_ROUTING = RouterModule.forRoot(APP_ROUTES, { useHash: true});
