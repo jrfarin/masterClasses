@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 // Routes
-import { app_routing } from "./app.routes"
+import { APP_ROUTING } from './app.routes';
 
 // Components
 import { AppComponent } from './app.component';
@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MainComponent } from './components/main/main.component';
 import { HomeComponent } from './components/home/home.component';
+import { RecetasComponent } from './components/recetas/recetas.component';
 
 @NgModule({
   declarations: [
@@ -17,11 +18,12 @@ import { HomeComponent } from './components/home/home.component';
     HeaderComponent,
     FooterComponent,
     MainComponent,
-    HomeComponent
+    HomeComponent,
+    RecetasComponent
   ],
   imports: [
     BrowserModule,
-    app_routing
+    APP_ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
