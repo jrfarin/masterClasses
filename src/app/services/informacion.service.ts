@@ -14,7 +14,7 @@ export class InformacionService {
   public infoLoaded(){
       this.http.get("https://coolinary-dadf5.firebaseio.com/recetas.json")
                .subscribe( data=>{
-                   console.log(data.json());
+                   //console.log(data.json());
                    this.loaded = true;
                    this.infoTaller = data.json();
                });
