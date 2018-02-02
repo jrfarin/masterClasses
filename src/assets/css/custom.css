@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600');
+
     html {
         background: #FAF7F2;
         background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
         box-sizing: border-box;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-size: 14px;
         font-weight: 400;
     }
@@ -70,7 +72,7 @@
     }
 
     .bg-custom, .btn-custom, .card-header {
-        background-color: #ff1744 !important;
+        background-color: #bca351 !important;
         color: #fff;
     }
 
@@ -88,7 +90,7 @@
     .dropdown-item.active, .dropdown-item:active {
         color: #fff;
         text-decoration: none;
-        background-color: #ff1744;
+        background-color: #bca351;
     }
 
     .row {

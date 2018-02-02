@@ -1,0 +1,61 @@
+[ {
+  "carecteristicas" : [ {
+      "task" : "Aprende a dar valor a \"las verduras\", con técnicas y conocimientos que ampliarán tu repertorio de sabores y estilos."
+  }, {
+      "task" : "Aprenderás la filosofía, el aprecio por las verduras, sus propiedades y cocinarlas con excelencia."
+  }, {
+      "task" : "Conoce el concepto \"Gastrobotánica\", sus peculiaridades y ponte al frente de la vanguardia vegetal."
+  }, {
+      "task" : "Dale valor a las verduras y aprende a cocinarlas de manera original, recuperando alimentos de toda la vida."
+  }, {
+      "task" : "Te revelaré unos cuantos consejos y trucos de cocina de autor."
+  } ],
+  "clase" : "8/12 pax. 18,45h - 20,30h",
+  "descripcion" : "Dale Importancia a la salud y la belleza",
+  "fecha" : "21 Febrero 2018",
+  "name" : "Vegetal Atelier",
+  "precio" : "20 €.",
+  "recipeName" : [ {
+      "recipeDesc" : "Carpaccio, Ravioli, Milhojas. Un estudio de la remolacha como Snack",
+      "title" : "Remolacha, Quesos, Nueces Vainilla"
+  }, {
+    "recipeDesc" : "Canalón de calabacín relleno de sanfaina. Aceite de tomate y acidez de frambuesa ",
+    "title" : "Calabacin, Pimientos, Tomate, Frambuesa"
+  }, {
+    "recipeDesc" : "Tarta de Hojaldre, confitura de cebollas, verduras a la parrilla y huevo mollet",
+    "title" : "Cebollas, Alcachofas, Champiñones, Huevo"
+  } ],
+  "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/verduras%2Fcarpaccio_v.jpg?alt=media&token=29a9b0c3-bd5a-4ea2-aaff-75f2474956e2"
+},
+{
+  "carecteristicas" : [ {
+      "task" : "Diseña actividades, reuniones y encuentros y recibe a tus invitados con tapas, bocados y cocteles. Todo realizado en 45 minutos."
+  }, {
+      "task" : "Técnicas de preparación de bocados para aperitivo, lunch o una cena informal."
+  }, {
+      "task" : "Rapidez, facilidad y encanto serán los próximos adjetivos que definirán  tu cocina."
+  }, {
+      "task" : "Aprenderás el Maridaje de la cocina Afterworks  y Vinos."
+  }, {
+      "task" : "Y como siempre trucos y consejos."
+  } ],
+  "clase" : "8/12 pax. 18,45h - 20,30h",
+  "descripcion" : "El tiempo es oro… no lo pierdas",
+  "fecha" : "28 Febrero 2018",
+  "name" : "Atelier Afterworks",
+  "precio" : "25 €.",
+  "recipeName" : [ {
+      "recipeDesc" : "Capuccino de Garbanzos con Foie Gras y nuez Moscada",
+      "title" : "Garbanzos, Foie Gras, Moscada"
+  }, {
+    "recipeDesc" : "Escalope de salmón ahumado relleno de Mousse de Sardinas y Mascarpone. Aceite de tres verduras",
+    "title" : "Salmón, Sardinas, Mascarpone"
+  }, {
+    "recipeDesc" : "Cremoso de patatas Monalisa langostinos salteados con ajo tierno y un toque de guindilla",
+    "title" : "Patatas, Langostinos, Ajo tierno"
+  }, {
+    "recipeDesc" : "Coca de costillas de conejo, caviar de berenjenas, Allioli suave y tomillo",
+    "title" : "Conejo, Berenjenas, Allioli"
+  }],
+  "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/verduras%2Fcarpaccio_v.jpg?alt=media&token=29a9b0c3-bd5a-4ea2-aaff-75f2474956e2"
+} ]

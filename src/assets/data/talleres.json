@@ -1,0 +1,75 @@
+{"talleres" : [
+    {
+      "nombre": "Taller de cocina con Verduras: Deja de aburrirte",
+      "descripcion": "Aprende acocinar recetas, sanas, sabrosas y actuales con ingredientes de temporada. Preparar platos sorprendentes sin necesidad de incorporar carnes o pescados.",
+      "img": "assets/img/verduras/carpaccio.jpg",
+      "características": [
+            {
+                "task": "Técnicas de preparación y cocción actuales para todo tipo de verduras."
+            },
+            {
+                "task": "Aprende a dar valor a las verduras gracias a técnicas innovadoras que ampliarán tu repetorio de sabores."
+            },
+            {
+                "task": "Introducción a la Gastrobotánica: filosofía y aprecio por las verduras y como cocinarlas con excelencia."
+            },
+            {
+                "task": "Sabrás como dejar las verduras con el punto crujiente, aderezar tus platos de verduras con toques asiáticos..."
+            },
+            {
+                "task": "Te explicare multiples consejos y trucos de cocina."
+            }
+      ],
+      "recetas" : [
+            {
+                "receta": "Canalón de Calabacín relleno de Sanfaina. Vinagreta de Tomate y Frambuesas"
+            },
+            {
+                "receta": "Carpaccio de Remolacha y Manchego tierno"
+            },
+            {
+                "receta": "Canalón de Calabacín relleno de Sanfaina. Vinagreta de Tomate y Frambuesas"
+            }
+      ],
+      "fechas": "Febrero 2018, Abril 2018",
+      "formula": [
+            {
+                "clase": "de 8 a 12 personas / 19'00 - 20'30"
+            },
+            {
+                "precio": "20 € por persona"
+            }
+      ]
+    },
+    {
+      "nombre": "Cocinas del mundo: Descubre nuevos destinos",
+      "descripcion": "Descubra las especialidades e ingredientes típicos de otras cocinas del mundo. ",
+      "img": "assets/img/talleres/aroundWorld.jpg",
+      "características": [
+            {
+                "task": "Descubrimiento de los ingredientes típicos de un país y peculiaridades de la cultura culinaria. Cocina peruana, cocina india, cocina thai, ¿cuál será tu próximo destino? Termine el recorrido degustando los platos que has hecho."
+            },
+            {
+                "task": "Desarrollo de un menú temático."
+            },
+            {
+                "task": "Consejos y trucos de cocina"
+            },
+            {
+                "task": "Descubre las peculiaridades de nuevos utensilios de cocina"
+            },
+            {
+                "task": "Todos los meses propondremos un nuevo destino."
+            }
+      ],
+      "fechas": "Marzo 2018, Octubre 2018",
+      "formula": [
+            {
+                "clase": "de 8 a 12 personas / 1h30"
+            },
+            {
+                "precio": "25 € por persona"
+            }
+      ]
+    }
+]}
