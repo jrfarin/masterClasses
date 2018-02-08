@@ -8,16 +8,27 @@
         font-size: 14px;
         font-weight: 400;
     }
-
     a {
         color: #fff;
         font-family: 'Cinzel', serif;
     }
-
     a:focus, a:hover {
         color: #fff;
         text-decoration: none;
         opacity: .8;
+    }
+    h4, h5, p.description {
+        font-family: 'Cinzel', serif;
+    }
+    p.description {
+        margin-bottom: .5rem;
+    }
+    .gold {
+        color: #bca351;
+    }
+    .emphasis {
+        font-size: .9rem;
+        font-style: italic;
     }
     .bg-home {
         background-image: url('../img/Bg-Home.jpg');
@@ -36,31 +47,25 @@
         font-size: 1.35rem;
         font-family: 'Lato', sans-serif;
     }
-
     .navbar {
         box-shadow: 0px 2px 20px grey;
     }
-
     .navbar-toggler {
         border: none;
         outline: none;
     }
-
     .navbar-inverse .navbar-toggler {
         border-color: rgba(255, 255, 255, 0);
     }
-
     .navbar-inverse .navbar-nav .nav-link {
         color: rgba(255, 255, 255, 1);
         font-size: 1.5rem;
         line-height: 55px;
     }
-
     .navbar-toggleable-md .navbar-nav .nav-link {
         padding-right: 3.5rem;
         padding-left: 3.5rem;
     }
-
     .navbar-inverse .navbar-toggler-icon {
         background-image: url(../img/menu.svg);
     }
@@ -70,29 +75,24 @@
         right: 4%;
         top: 20%;
     }
-
     .bg-custom, .btn-custom, .card-header {
         background-color: #bca351 !important;
         color: #fff;
     }
-
     .dropdown-menu {
         top: 105%;
         left: 12%;
         border-color: #ededed;
     }
-
     .dropdown-item {
         text-transform: uppercase;
         font-weight: 300;
     }
-
     .dropdown-item.active, .dropdown-item:active {
         color: #fff;
         text-decoration: none;
         background-color: #bca351;
     }
-
     .row {
         margin-right: -10px;
         margin-left: -10px;
@@ -100,29 +100,24 @@
     .offset-bottom_0 {
         margin-bottom: 0;
     }
-
     .offset_top_20 {
         margin-top: 20px !important;
     }
-
     .offset_top_30 {
         margin-top: 30px !important;
     }
     .equalsHeight {
         display :none;
     }
-
     .page-header {
         padding-bottom: 9px;
         margin: 40px 0 20px;
         border-bottom: 1px solid #d1d1d1;
         font-family: 'Cinzel', serif;
     }
-
     .subtle {
         color: #aaa;
     }
-
     .card {
         background-color: #fff;
         padding: 30px;
@@ -131,7 +126,6 @@
         border: none;
         margin-top: 20px;
     }
-
     .divisor:after {
         box-shadow: 0 0 5px rgba(75, 75, 75, .1);
         content: "";
@@ -141,11 +135,9 @@
         right: 0;
         width: 1px;
     }
-
     .card-number {
         margin-top: 15px;
     }
-
     .card-circle {
         border: 1px solid #aaa;
         border-radius: 50%;
@@ -157,7 +149,6 @@
         width: 25px;
         margin-right: 15px;
     }
-
     .card-author {
         display: block;
         font-size: 13px;
@@ -165,7 +156,6 @@
         margin: 15px 0 0;
         text-transform: uppercase;
     }
-
     .card-title {
         font-family: 'Cinzel', serif;
         font-size: 1.5rem;
@@ -174,10 +164,6 @@
         margin: 30px 0 15px;
         letter-spacing: -1px;
     }
-
-    /*.card-description {
-        min-height: 90px;
-    }*/
     .card-description, .card-date {
         display: inline-block;
         font-weight: 300;
@@ -185,12 +171,10 @@
         margin: 25px 0;
         font-size: 1.2rem;
     }
-
     .card-course {
         font-weight: 400;
         text-transform: uppercase;
     }
-
     .card-read {
         cursor: pointer;
         font-size: 14px;
@@ -203,7 +187,6 @@
         width: 92%;
         text-transform: uppercase;
     }
-
     .card-read:after {
         background-color: #d6d6d6;
         content: "";
@@ -213,7 +196,6 @@
         top: 11px;
         width: 62%;
     }
-
     .card-shadow {
         background-color: #fff;
         box-shadow: 0 2px 25px 2px rgba(0, 0, 0, 1), 0 2px 50px 2px rgba(0, 0, 0, 1), 0 0 100px 3px rgba(0, 0, 0, .25);
@@ -222,6 +204,18 @@
         width: 90%;
         z-index: -1;
     }
+
+
+    .accordion .card .fa-angle-down,
+        .accordion .card .fa-angle-up {
+            float: right;
+        }
+    .accordion .card .card-header a:not(.collapsed) .rotate-icon {
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+
 
     footer>nav div.social>a {
         padding-left: 12%;
@@ -279,7 +273,7 @@
             right: 4%;
         }
         .noPadding {
-            padding: 0;
+            padding: 0 !important;
         }
         .noPadding>img {
             width: 80%;

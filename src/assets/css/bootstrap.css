@@ -743,10 +743,9 @@ pre code {
 
 .container-fluid {
     position: relative;
-    padding-right: 15px;
-    padding-left: 15px;
-    width: 96%;
-    margin: 2%;
+    padding: 0 !important;
+    width: 100%;
+    margin: 0%;
 }
 
 @media (min-width: 576px) {

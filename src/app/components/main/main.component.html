@@ -2,32 +2,78 @@
 <app-header></app-header>
 
 <!-- Main Content -->
-<div class="page-header">
-    <h1>Taller: Sabores y Colores de Otoño. Capítulo I</h1>
-</div>
-<div class="row">
-    <!-- Recipe Items Starts -->
-    <div class="col-xs-12 col-md-6 col-lg-6" *ngFor="let item of _is.infoTaller">
-        <div class="row">
-            <div class="col-xs-12 col-lg-6 card">
-                <div class="flexbox" style="display:flex;justify-content:flex-start;align-items:center;">
-                    <span class="card-number card-circle subtle">{{item.numero}}</span>
-                    <span class="card-number card-circle subtle">{{item.familia}}</span>
-                    <span class="card-author subtle">{{item.autor}}</span>
+<main class="container mt-5">
+    <div class="page-header">
+        <h1>Coolinary Market: Ateliers 2018 <small><cite>By J.R. Farin</cite></small></h1>
+    </div>
+    <div class="row">
+        <div class="card-columns">
+            <div class="card text-center">
+                <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/Ateliers%2Fcarpaccio.jpg?alt=media&token=1f438746-9f36-4ffa-b04a-a4cb7200c139" alt="">
+                <div class="card-body">
+                    <h4 class="card-title font-weight-bold gold mb-0">Vegetal Atelier</h4>
+                    <p class="card-text description gold">Deja de aburrirte. dale importancia a la salud.</p>
+                    <img src="AMP/swirl.png" alt="">
+                    <ul class="emphasis list-unstyled mt-3">
+                        <li class="gold">Remolacha, Queso, Nueces, Vainilla</li>
+                        <li class="">Carpaccio, Ravioli, Milhojas. Un estudio de la remolacha como Snack</li>
+                    </ul>
+                    <ul class="emphasis list-unstyled mt-3">
+                        <li class="gold">Calabacin, Pimientos, Tomate, Frambuesa</li>
+                        <li class="">Canalón de calabacín relleno de sanfaina. Aceite de tomate y acidez de frambuesa</li>
+                    </ul>
+                    <ul class="emphasis list-unstyled mt-3">
+                        <li class="gold ">Cebollas, Alcachofas, Champiñones, Huevo</li>
+                        <li class="">Tarta de Hojaldre, confitura de cebollas, verduras a la parrilla y huevo mollet</li>
+                    </ul>
+                    <h5 class="gold mt-4">Características</h5>
+                    <ul class="emphasis list-unstyled">
+                        <li class="mb-2">Aprende a dar valor a "las verduras", con técnicas y conocimientos que ampliarán tu repertorio de sabores y estilos.</li>
+                        <li class="mb-2">Aprenderás la filosofía, el aprecio por las verduras, sus propiedades y cocinarlas con excelencia.</li>
+                        <li class="mb-2">Conoce el concepto "Gastrobotánica", sus peculiaridades y ponte al frente de la vanguardia vegetal.</li>
+                        <li class="mb-2">Dale valor a las verduras y aprende a cocinarlas de manera original, recuperando alimentos de toda la vida.</li>
+                        <li class="mb-2">Te revelaré unos cuantos consejos y trucos de cocina de autor.</li>
+                    </ul>
+                    <div class="mb-3">
+                        <img src="AMP/swirl.png" alt="">
+                    </div>
+                    <small class="card-text font-weight-bold font-italic gold">clase: de 8 a 12 personas / 18, 45 - 21,30 h.; <br>precio: 20 € por persona</small>
+                    <footer class="blockquote-footer mt-3">
+                        <span>
+                            <cite class="gold font-weight-bold" title="Source Title">20 y 21 de febrero de 2018</cite>
+                        </span>
+                    </footer>
                 </div>
-                <h2 class="card-title">{{item.titulo}}</h2>
-                <span class="card-description subtle">{{item.decripcion}}</span>
-                <span class="card-course subtle">{{item.curso}}</span>
-                <span class="card-date subtle">{{item.fecha}}</span>
-                <div class="card-read">Ver Más</div>
-            </div>
-            <div class="col-xs-12 col-lg-6 card">
-                <img [src]="item.src" alt="{{item.descripcion}}" class="img-fluid" />
             </div>
         </div>
-        <div class="card-shadow"></div>
     </div>
-</div>
+</main>
+
+<!-- <main>
+    <div class="row"> -->
+        <!-- Recipe Items Starts -->
+        <!-- <div class="col-xs-12 col-md-6 col-lg-6" *ngFor="let item of _is.infoReceta">
+            <div class="row">
+                <div class="col-xs-12 col-lg-6 card">
+                    <div class="flexbox" style="display:flex;justify-content:flex-start;align-items:center;">
+                        <span class="card-number card-circle subtle">{{item.numero}}</span>
+                        <span class="card-number card-circle subtle">{{item.familia}}</span>
+                        <span class="card-author subtle">{{item.autor}}</span>
+                    </div>
+                    <h2 class="card-title">{{item.titulo}}</h2>
+                    <span class="card-description subtle">{{item.decripcion}}</span>
+                    <span class="card-course subtle">{{item.curso}}</span>
+                    <span class="card-date subtle">{{item.fecha}}</span>
+                    <div class="card-read">Ver Más</div>
+                </div>
+                <div class="col-xs-12 col-lg-6 card">
+                    <img [src]="item.src" alt="{{item.descripcion}}" class="img-fluid" />
+                </div>
+            </div>
+            <div class="card-shadow"></div>
+        </div>
+    </div>
+</main> -->
 
 <!-- Footer with Social Buttons Starts -->
 <app-footer></app-footer>
