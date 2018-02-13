@@ -1,5 +1,5 @@
 [ {
-  "carecteristicas" : [ {
+  "caracteristicas" : [ {
     "task" : "Aprende a dar valor a las verduras, con técnicas y conocimientos que ampliarán tu repertorio de sabores y estilos."
   }, {
     "task" : "Aprenderás la filosofía, el aprecio por las verduras, sus propiedades y cocinarlas con excelencia."
@@ -25,34 +25,95 @@
     "recipeDesc" : "Tarta de Hojaldre, confitura de cebollas, verduras a la parrilla y huevo mollet",
     "title" : "Cebollas, Alcachofas, Champiñones, Huevo"
   } ],
-  "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/verduras%2Fcarpaccio_v.jpg?alt=media&token=29a9b0c3-bd5a-4ea2-aaff-75f2474956e2"
+  "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/Ateliers%2Fcarpaccio.jpg?alt=media&token=1f438746-9f36-4ffa-b04a-a4cb7200c139"
 },
 {
-  "carecteristicas" : [ {
-    "task" : "Aprende a dar valor a las verduras, con técnicas y conocimientos que ampliarán tu repertorio de sabores y estilos."
+  "caracteristicas" : [ {
+    "task" : "Diseña actividades, reuniones y encuentros y recibe a tus invitados con tapas, bocados y cocteles. Todo realizado en 45 minutos."
   }, {
-    "task" : "Aprenderás la filosofía, el aprecio por las verduras, sus propiedades y cocinarlas con excelencia."
+    "task" : "Técnicas de preparación de bocados para aperitivo, lunch o una cena informal."
   }, {
-    "task" : "Conoce el concepto Gastrobotánica, sus peculiaridades y ponte al frente de la vanguardia vegetal."
+    "task" : "Rapidez, facilidad y encanto serán los próximos  adjetivos que definirán  tu cocina."
   }, {
-    "task" : "Dale valor a las verduras y aprende a cocinarlas de manera original, recuperando alimentos de toda la vida."
+    "task" : "Aprenderás el Maridaje de la cocina Afterworks  y Vinos."
   }, {
-    "task" : "Te revelaré unos cuantos consejos y trucos de cocina de autor."
+    "task" : "Y como siempre trucos y consejos."
   } ],
   "clase" : "8/12 pax. 18,45h - 20,30h",
-  "descripcion" : "Dale Importancia a la salud y la belleza",
+  "descripcion" : "El tiempo es oro… no lo pierdas",
   "fecha" : "28 Febrero 2018",
   "name" : "Atelie AfterWorks",
   "precio" : "25 €.",
   "recipeName" : [ {
-    "recipeDesc" : "Carpaccio, Ravioli, Milhojas. Un estudio de la remolacha como Snack",
-    "title" : "Remolacha, Quesos, Nueces Vainilla"
+    "recipeDesc" : "Capuccino de Garbanzos con Foie Gras y nuez Moscada",
+    "title" : "Garbanzos, Foie Gras, Moscada"
   }, {
-    "recipeDesc" : "Canalón de calabacín relleno de sanfaina. Aceite de tomate y acidez de frambuesa ",
-    "title" : "Calabacin, Pimientos, Tomate, Frambuesa"
+    "recipeDesc" : "Escalope de salmón ahumado relleno de Mousse de Sardinas y Mascarpone. Aceite de tres verduras",
+    "title" : "Salmón, Sardinas, Mascarpone"
   }, {
-    "recipeDesc" : "Tarta de Hojaldre, confitura de cebollas, verduras a la parrilla y huevo mollet",
-    "title" : "Cebollas, Alcachofas, Champiñones, Huevo"
+    "recipeDesc" : "Cremoso de patatas Monalisa langostinos salteados con ajo tierno y un toque de guindilla",
+    "title" : "Patatas, Langostinos, Ajo tierno"
+  }, {
+    "recipeDesc" : "Coca de costillas de conejo, caviar de berenjenas, Allioli suave y tomillo",
+    "title" : "Conejo, Berenjenas, Allioli"
   } ],
-  "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/verduras%2Fcarpaccio_v.jpg?alt=media&token=29a9b0c3-bd5a-4ea2-aaff-75f2474956e2"
+  "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/Ateliers%2Fsalmon.jpg?alt=media&token=2d3cab7b-4b9d-45af-bc42-965ae634d8c5"
+},
+{
+  "caracteristicas" : [ {
+    "task" : "El Apartado dedicado a los arrocses consta de tres partes: arroces secos, melosos y cremosos (risottos)."
+  }, {
+    "task" : "En el capítulo I aprenderas a realizar perfectamente los arroces cocinados en paellera, y sumétodos de cocción."
+  }, {
+    "task" : "Descubriras por partes los sofritos, los caldos y los diderentes ingredientes para confeccionar una paella perfecta."
+  }, {
+    "task" : "Aprenderás los tipos de arroz y la relación arroz/caldo/personas para que siempre alcances el éxito en tus elaboraciones."
+  }, {
+    "task" : "Verás los principales trucos para que siempre te salga el arroz con el mismo punto."
+  } ],
+  "clase" : "8/12 pax. 18,45h - 20,30h",
+  "descripcion" : "Arroces Secos. descubre la verdad, tu harás...",
+  "fecha" : "15 Marzo 2018",
+  "name" : "Atelier El secreto de los arroces I",
+  "precio" : "20 €.",
+  "recipeName" : [ {
+    "recipeDesc" : "Caldo de pescado que no fumet especial para todo tipo de arroces",
+    "title" : "Pescados de Roca, Galeras, Verduras"
+  }, {
+    "recipeDesc" : "Paella Parellada (“del señorito) o la formade comer una paella sin pelar..",
+    "title" : "Arroz, Pescado, Marisco"
+  }, {
+    "recipeDesc" : "Arroz a banda con allioli, un arroz sabroso y económico",
+    "title" : "Arroz Bomba, Caldo de Pescado, Allioli"
+  } ],
+  "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/Ateliers%2Fpaella.jpg?alt=media&token=4c69738e-a04a-436b-8d76-8a0d68b72719"
+},
+{
+  "caracteristicas" : [ {
+    "task" : "Descubre los principios de una buena salsa preparando fondos que dan el valor auténtico a las preparaciones."
+  }, {
+    "task" : "Sabrás distinguir la diferencia entre caldos y fondos. Daré a conocer las bases más importantes para hacer salsa."
+  }, {
+    "task" : "Elaboramos la Salsa Café de París, la actualizaremos, conocerás su origen y su historia."
+  }, {
+    "task" : "Prepararemos un gratin de patatas, una de las guarniciones más emblemáticas de la cocina francesa. Variaciones y técnicas."
+  }, {
+    "task" : "Y como siempre trucos y consejos."
+  } ],
+  "clase" : "8/12 pax. 18,45h - 20,30h",
+  "descripcion" : "El perquè de tot plegat",
+  "fecha" : "22 Marzo 2018",
+  "name" : "Atelier Fondos, Salsas, Guarniciones",
+  "precio" : "20 €.",
+  "recipeName" : [ {
+    "recipeDesc" : "Fondo oscuro de pollo asado",
+    "title" : "Pollo, Verduras, Aromáticos, Oporto"
+  }, {
+    "recipeDesc" : "Entrecôte de Ternera a la sartén con la famosa salsa Café de París (actualizada)",
+    "title" : "Ternera, Mantequilla, Hierbas"
+  }, {
+    "recipeDesc" : "Gratin Dauphinois (gratin de patatas a la crema)",
+    "title" : "Patatas, Crema, 4 Especies"
+  } ],
+  "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/Ateliers%2FFondos_Salsas.jpg?alt=media&token=3d1f6537-bb74-4be3-89ea-f4e780e87b74"
 }]
