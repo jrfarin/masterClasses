@@ -4,7 +4,7 @@ import {Http} from '@angular/http';
 @Injectable()
 export class InformacionService {
 
-  infoReceta:any[] = [];
+  infoTaller:any[] = [];
   loaded:boolean = false;
 
   constructor( public http:Http) {
@@ -16,7 +16,7 @@ export class InformacionService {
                .subscribe( data=>{
                    //console.log(data.json());
                    this.loaded = true;
-                   this.infoReceta = data.json();
+                   this.infoTaller = data.json();
                });
   }
 
