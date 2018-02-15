@@ -3,11 +3,14 @@
 
 <!-- Main Content -->
 <main class="container noPadding">
+  <div class="page-header">
+    <h1>Coolinary Market: Recetas 2018 <small><cite>By J.R. Farin</cite></small></h1>
+  </div>
     <div class="row">
         <div class="col-sm-12 col-md-4 noPadding" *ngFor="let receta of _rs.infoRecetas">
             <div class="row">
-                <img src="http://via.placeholder.com/360x240" alt="" class="img-fluid">
                 <div class="col-sm-12 noPadding">
+                    <img class="card-img-top" [src]="receta.src" alt="">
                     <div class="accordion" id="accordionIng" role="tablist" aria-multiselectable="true">
                         <div class="card">
                             <div class="card-header" id="headingIng">
@@ -53,6 +56,7 @@
             <div class="mb-3 text-center">
                 <img src="assets/img/recetas/swirl.png" alt="">
             </div>
+            <hr />
         </div>
     </div>
 </main>

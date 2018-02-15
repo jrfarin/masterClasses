@@ -2,7 +2,7 @@
 <app-header></app-header>
 
 <!-- Main Content -->
-<main class="container mt-5">
+<main class="container">
     <div class="page-header">
         <h1>Coolinary Market: Ateliers 2018 <small><cite>By J.R. Farin</cite></small></h1>
     </div>
@@ -14,7 +14,7 @@
                 <div class="card-body">
                     <h4 class="card-title font-weight-bold gold mb-0">{{taller.name}}</h4>
                     <p class="card-text description gold">{{taller.descripcion}}</p>
-                    <img src="assets/img/swirl.png" alt="">
+                    <img src="assets/img/recetas/swirl.png" alt="">
                     <ul class="emphasis list-unstyled mt-3" *ngFor="let item of taller.recipeName">
                         <li class="gold">{{item.title}}</li>
                         <li>{{item.recipeDesc}}</li>
@@ -32,6 +32,7 @@
                         <span>
                             <cite class="gold font-weight-bold" title="Source Title">{{taller.fecha}}</cite>
                         </span>
+                        <hr />
                     </footer>
                 </div>
             </div>
