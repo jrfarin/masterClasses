@@ -31,7 +31,7 @@
         font-style: italic;
     }
     .bg-home {
-        background-image: url('../img/Bg-Home.jpg');
+        background-image: url('../img/home/Bg-Home.jpg');
         background-size: cover;
         height: 100vh;
     }
@@ -105,6 +105,9 @@
     }
     .offset_top_30 {
         margin-top: 30px !important;
+    }
+    .offset_top_i20 {
+        margin-top: -20px !important;
     }
     .equalsHeight {
         display :none;
