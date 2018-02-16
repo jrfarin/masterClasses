@@ -1,5 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600');
 
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?anpz2y');
+    src:  url('../fonts/icomoon.eot?anpz2y#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?anpz2y') format('truetype'),
+    url('../fonts/icomoon.woff?anpz2y') format('woff'),
+    url('../fonts/icomoon.svg?anpz2y#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-gauge:before {
+    content: "\e900";
+}
+.icon-family:before {
+    content: "\1f35d";
+}
+.icon-clock:before {
+    content: "\e94e";
+}
+.icon-users:before {
+    content: "\e972";
+}
+.icon-fire:before {
+    content: "\e9a9";
+}
+
     html {
         background: #FAF7F2;
         background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
@@ -25,6 +63,9 @@
     }
     .gold {
         color: #bca351;
+    }
+    span.cinzel {
+        font-family: 'Cinzel', serif;
     }
     .emphasis {
         font-size: .9rem;
