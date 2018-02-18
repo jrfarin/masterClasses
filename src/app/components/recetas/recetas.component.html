@@ -84,8 +84,8 @@
 
                             <div id="elaboracion{{ i + 1 }}" class="collapse" aria-labelledby="headingElb" data-parent="#accordionElb">
                                 <div class="card-body">
-                                    <ul *ngFor="let item of receta.Elaboracion">
-                                        <li>{{item.paso}}</li>
+                                    <ul class="mt-2">
+                                        <li *ngFor="let item of receta.Elaboracion">{{item.paso}}</li>
                                     </ul>
                                 </div>
                             </div>
@@ -106,8 +106,8 @@
 
                             <div id="acabado{{ i + 1 }}" class="collapse" aria-labelledby="headingFin" data-parent="#accordionFin">
                                 <div class="card-body">
-                                    <ul *ngFor="let item of receta.acabado">
-                                        <li>{{item.paso}}</li>
+                                    <ul class="mt-2">
+                                        <li *ngFor="let item of receta.acabado">{{item.paso}}</li>
                                     </ul>
                                 </div>
                             </div>
