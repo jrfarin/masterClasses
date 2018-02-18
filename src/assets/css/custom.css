@@ -55,6 +55,12 @@
         text-decoration: none;
         opacity: .8;
     }
+    hr {
+      margin-bottom: 0;
+    }
+    h5.FS1 {
+      font-size: 1rem;
+    }
     h4, h5, p.description {
         font-family: 'Cinzel', serif;
     }
@@ -88,8 +94,9 @@
         font-size: 1.35rem;
         font-family: 'Lato', sans-serif;
     }
-    .navbar {
+    header .navbar {
         box-shadow: 0px 2px 10px #b1b1b1;
+        height: 64px;
     }
     .navbar-toggler {
         border: none;
@@ -147,9 +154,6 @@
     .offset_top_30 {
         margin-top: 30px !important;
     }
-    .offset_top_i20 {
-        margin-top: -20px !important;
-    }
     .equalsHeight {
         display :none;
     }
@@ -164,11 +168,10 @@
     }
     .card {
         background-color: #fff;
-        padding: 20px;
         position: relative;
         z-index: 1;
         border: none;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .card-img-top {
         width: 100%;
@@ -256,13 +259,16 @@
         width: 90%;
         z-index: -1;
     }
-
+    .center-block {
+        display:block;
+        margin: auto;
+    }
 
     .accordion .card .fa-angle-down,
-        .accordion .card .fa-angle-up {
-            float: right;
-        }
-    .accordion .card .card-header a:not(.collapsed) .rotate-icon {
+    .accordion .card .fa-angle-up {
+        float: right;
+    }
+    .accordion .card .card-header a.collapsed .rotate-icon {
         -webkit-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
         transform: rotate(180deg);
@@ -327,6 +333,9 @@
         .noPadding {
             padding: 3px !important;
         }
+        .offset_top_i20 {
+            margin-top: -20px !important;
+        }
         /* .noPadding>img {
             width: 80%;
             margin: auto;
@@ -351,8 +360,8 @@
         .page-header>h1 {
             font-size: 2rem;
         }
-        .card {
-            margin-top: 0;
+        h5.FS1 {
+            font-size: 1rem;
         }
         .card-title {
             font-size: 1.35rem;
@@ -379,9 +388,9 @@
         .page-header>h1 {
             text-align: center;
         }
-        .card {
+        /* .card {
             min-height: 320px;
-        }
+        } */
         .card-title {
             font-size: 16px;
             margin: 20px 0 0;
@@ -389,9 +398,12 @@
         .card-description, .card-date {
             font-size: 1.1rem;
         }
-        .card {
+        /* .card {
             display: flex;
             justify-content: center;
+        } */
+        span.cinzel {
+            font-size: .74rem;
         }
         .card-read {
             right: -1%;

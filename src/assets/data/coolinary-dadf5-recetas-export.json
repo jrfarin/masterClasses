@@ -1,52 +1,303 @@
 [ {
-  "autor" : "Pep Farin",
-  "curso" : "TALLER: COLORES Y SABORES DE OTOÑO (CAPÍTULO I).",
-  "descripcion" : "Espuma templada de Patata, Pulpo de roca y Romesco de almendras y piñones.",
-  "familia" : "S",
-  "fecha" : "Fecha 04-18/Octubre/2017",
-  "numero" : "01",
-  "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/pulpopapa.jpg?alt=media&token=7ffa209c-7362-462b-933d-712a1f8f443b",
-  "titulo" : "Patata Pulpo Romesco"
-}, {
-  "autor" : "Pep Farin",
-  "curso" : "TALLER: COLORES Y SABORES DE OTOÑO (CAPÍTULO I).",
-  "descripcion" : "Capuccino de Royal de Foie gras y Ceps. Notas de Cacao y Café.",
-  "familia" : "A",
-  "fecha" : "Fecha 04-18/Octubre/2017",
-  "numero" : "02",
-  "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/royalfoie.jpg?alt=media&token=e3e6264d-98ee-437f-8faf-f6d90ff36b7e",
-  "titulo" : "Foie Ceps Cacao Café"
-}, {
-  "autor" : "Pep Farin",
-  "curso" : "TALLER: COLORES Y SABORES DE OTOÑO (CAPÍTULO I).",
-  "descripcion" : "Crema de coliflor y mantequilla, flor de huevo, caviar de arenque, aromas de tierra y un toque canalla.",
+  "Elaboracion" : [ {
+    "paso" : "Abrir las vainas de vainilla longitudinalmente. Recuperar las semillas con la ayuda de una puntilla."
+  },
+  {
+    "paso" : "Mezclarlas col al aceite de girasol. Colocarlas en un biberón y dejar reposar en un lugar oscuro y fresco para evitar la oxidación."
+  },
+  {
+    "paso" : ""
+  },
+  {
+    "paso" : "Cortar la remolacha  con un cortafiambres o mandolina en lámina de 1 mm. de grosor."
+  },
+  {
+    "paso" : "Cortar círculos de 5 cm de ø con la ayuda de un cortapastas circular. Reservar."
+  },
+  {
+    "paso" : ""
+  },
+  {
+    "paso" : "Cortar el queso Manchego con un cortafiambres o mandolina en lonchas de 1 mm. de grosor."
+  },
+  {
+    "paso" : "Cortar círculos de 5 cm de ø con la ayuda de un cortapastas circular. Reservar."
+  },
+  {
+    "paso" : ""
+  },
+  {
+    "paso" : "Partir las nueces y el Roquefort en trozos de 1 cm. Reservar este último en la nevera."
+  }
+],
+  "acabado" : [
+  {
+    "paso" : "Para el Carpaccio: intercalar círculos de remolacha y Manchego, rociar con unas gotas de aceite de vainilla."
+  },
+  {
+    "paso" : "Calentar unos segundos en el microondas, espolvorear con un poco de sal Maldon y servir inmediatamente."
+  },
+  {
+    "paso" : ""
+  },
+  {
+    "paso" : "Para el Milhojas: colocar círculos de remolacha y Manchego unos encima de otros. Aliñar con el aceite de vainilla."
+  },
+  {
+    "paso" : "Calentar unos segundos en el microondas, espolvorear con un poco de sal Maldon y servir inmediatamente."
+  },
+  {
+    "paso" : ""
+  },
+  {
+    "paso" : "Para los Raviolis: extender una lámina de remolacha, colocar en el centro un trozo de nuez y un trozo de Roquefort."
+  },
+  {
+    "paso" : "Cubrir con otro disco de remolacha. Montar unos 6 raviolis por ración. Aliñar y con el aceite de vainilla y un poco de sal Maldon. Servir frío."
+  }
+],
+  "descripcion" : "Carpaccio, Ravioli, Milhojas. Un estudio de la remolacha como Snack",
+  "dificultad" : "fácil",
   "familia" : "E",
-  "fecha" : "Fecha 04-18/Octubre/2017",
-  "numero" : "03",
-  "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/cauliflower.jpg?alt=media&token=0c88e5e4-faa9-435a-8169-db8e19266130",
-  "titulo" : "Coliflor Huevo Caviar"
-}, {
-  "autor" : "Pep Farin",
-  "curso" : "TALLER: COLORES Y SABORES DE OTOÑO (CAPÍTULO I).",
-  "descripcion" : "Vieiras a la sartén. Praliné salado de avellanas.  Chips y crema de alcachofas fritas.",
-  "familia" : "P",
-  "numero" : "04",
-  "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/scallop.jpg?alt=media&token=efad9328-a63e-4262-9b53-ce9ac8fa1fed",
-  "titulo" : "Vieiras, Alcachofas, Avellanas"
-}, {
-  "autor" : "Pep Farin",
-  "curso" : "TALLER: COLORES Y SABORES DE OTOÑO (CAPÍTULO I).",
-  "descripcion" : "Magret de pato asado con hojas de higuera. Higos  salteados, asados y en chutney.",
-  "familia" : "C",
-  "numero " : "05",
-  "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/magret.jpg?alt=media&token=98c6be87-a1ff-48b2-9d5f-d3c2215fd2dd",
-  "titulo" : "Pato, Higos, Balsámico"
-}, {
-  "autor" : "Pep Farin",
-  "curso" : "TALLER: COLORES Y SABORES DE OTOÑO (CAPÍTULO I).",
-  "descripcion" : "Dacquoise  de almendras, Ruso de café,  Lemon Curd  y tomillo limón.",
-  "familia" : "D",
-  "numero" : "06",
-  "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/dacquoise.jpg?alt=media&token=0e850bbc-2825-49c5-948d-0a5dc8e4a36d",
-  "titulo" : " Café, Chocolate, Limón"
-} ]
+  "ingredientes" : [
+  {
+    "producto" : "Remolacha",
+    "cantidad" : "400 gr."
+  },
+  {
+    "producto" : "Queso Manchego tierno",
+    "cantidad" : "200 gr."
+  },
+  {
+    "producto" : "Queso Roquefort",
+    "cantidad" : "100 gr."
+  },
+  {
+    "producto" : "Nueces",
+    "cantidad" : "4 un."
+  },
+  {
+    "producto" : "",
+    "cantidad" : ""
+  },
+  {
+    "producto" : "Aceite de girasol",
+    "cantidad" : "30 ml"
+  },
+  {
+    "producto" : "Vainas Vainilla",
+    "cantidad" : "2 un."
+  },
+  {
+    "producto" : "Sal Maldon",
+    "cantidad" : "2 gr."
+  }
+],
+  "pax" : 4,
+  "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/Recetas%2Fcarpaccio.jpg?alt=media&token=1bfca7f3-fce4-4af4-9ddd-4c46b12105d2",
+  "tiempo" : "15 min",
+  "titulo" : "Remolacha, Queso, Nueces, Vainilla"
+},
+
+{
+  "Elaboracion" : [ {
+    "paso" : "Abrir las vainas de vainilla longitudinalmente. Recuperar las semillas con la ayuda de una puntilla."
+  },
+  {
+    "paso" : "Mezclarlas col al aceite de girasol. Colocarlas en un biberón y dejar reposar en un lugar oscuro y fresco para evitar la oxidación."
+  },
+  {
+    "paso" : ""
+  },
+  {
+    "paso" : "Cortar la remolacha  con un cortafiambres o mandolina en lámina de 1 mm. de grosor."
+  },
+  {
+    "paso" : "Cortar círculos de 5 cm de ø con la ayuda de un cortapastas circular. Reservar."
+  },
+  {
+    "paso" : ""
+  },
+  {
+    "paso" : "Cortar el queso Manchego con un cortafiambres o mandolina en lonchas de 1 mm. de grosor."
+  },
+  {
+    "paso" : "Cortar círculos de 5 cm de ø con la ayuda de un cortapastas circular. Reservar."
+  },
+  {
+    "paso" : ""
+  },
+  {
+    "paso" : "Partir las nueces y el Roquefort en trozos de 1 cm. Reservar este último en la nevera."
+  }
+],
+  "acabado" : [
+  {
+    "paso" : "Para el Carpaccio: intercalar círculos de remolacha y Manchego, rociar con unas gotas de aceite de vainilla."
+  },
+  {
+    "paso" : "Calentar unos segundos en el microondas, espolvorear con un poco de sal Maldon y servir inmediatamente."
+  },
+  {
+    "paso" : ""
+  },
+  {
+    "paso" : "Para el Milhojas: colocar círculos de remolacha y Manchego unos encima de otros. Aliñar con el aceite de vainilla."
+  },
+  {
+    "paso" : "Calentar unos segundos en el microondas, espolvorear con un poco de sal Maldon y servir inmediatamente."
+  },
+  {
+    "paso" : ""
+  },
+  {
+    "paso" : "Para los Raviolis: extender una lámina de remolacha, colocar en el centro un trozo de nuez y un trozo de Roquefort."
+  },
+  {
+    "paso" : "Cubrir con otro disco de remolacha. Montar unos 6 raviolis por ración. Aliñar y con el aceite de vainilla y un poco de sal Maldon. Servir frío."
+  }
+],
+  "descripcion" : "Canalón de calabacín relleno de sanfaina. Aceite de tomate y acidez de frambuesa",
+  "dificultad" : "fácil",
+  "familia" : "E",
+  "ingredientes" : [
+  {
+    "producto" : "Remolacha",
+    "cantidad" : "400 gr."
+  },
+  {
+    "producto" : "Queso Manchego tierno",
+    "cantidad" : "200 gr."
+  },
+  {
+    "producto" : "Queso Roquefort",
+    "cantidad" : "100 gr."
+  },
+  {
+    "producto" : "Nueces",
+    "cantidad" : "4 un."
+  },
+  {
+    "producto" : "",
+    "cantidad" : ""
+  },
+  {
+    "producto" : "Aceite de girasol",
+    "cantidad" : "30 ml"
+  },
+  {
+    "producto" : "Vainas Vainilla",
+    "cantidad" : "2 un."
+  },
+  {
+    "producto" : "Sal Maldon",
+    "cantidad" : "2 gr."
+  }
+],
+  "pax" : 4,
+  "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/Recetas%2Fveggie.jpg?alt=media&token=16d4a455-a7d4-4a55-ad47-a240229197c9",
+  "tiempo" : "30 min",
+  "titulo" : "Calabacin, Pimientos, Tomate, Frambuesa"
+},
+
+  {
+    "Elaboracion" : [ {
+      "paso" : "Abrir las vainas de vainilla longitudinalmente. Recuperar las semillas con la ayuda de una puntilla."
+    },
+    {
+      "paso" : "Mezclarlas col al aceite de girasol. Colocarlas en un biberón y dejar reposar en un lugar oscuro y fresco para evitar la oxidación."
+    },
+    {
+      "paso" : ""
+    },
+    {
+      "paso" : "Cortar la remolacha  con un cortafiambres o mandolina en lámina de 1 mm. de grosor."
+    },
+    {
+      "paso" : "Cortar círculos de 5 cm de ø con la ayuda de un cortapastas circular. Reservar."
+    },
+    {
+      "paso" : ""
+    },
+    {
+      "paso" : "Cortar el queso Manchego con un cortafiambres o mandolina en lonchas de 1 mm. de grosor."
+    },
+    {
+      "paso" : "Cortar círculos de 5 cm de ø con la ayuda de un cortapastas circular. Reservar."
+    },
+    {
+      "paso" : ""
+    },
+    {
+      "paso" : "Partir las nueces y el Roquefort en trozos de 1 cm. Reservar este último en la nevera."
+    }
+  ],
+    "acabado" : [
+    {
+      "paso" : "Para el Carpaccio: intercalar círculos de remolacha y Manchego, rociar con unas gotas de aceite de vainilla."
+    },
+    {
+      "paso" : "Calentar unos segundos en el microondas, espolvorear con un poco de sal Maldon y servir inmediatamente."
+    },
+    {
+      "paso" : ""
+    },
+    {
+      "paso" : "Para el Milhojas: colocar círculos de remolacha y Manchego unos encima de otros. Aliñar con el aceite de vainilla."
+    },
+    {
+      "paso" : "Calentar unos segundos en el microondas, espolvorear con un poco de sal Maldon y servir inmediatamente."
+    },
+    {
+      "paso" : ""
+    },
+    {
+      "paso" : "Para los Raviolis: extender una lámina de remolacha, colocar en el centro un trozo de nuez y un trozo de Roquefort."
+    },
+    {
+      "paso" : "Cubrir con otro disco de remolacha. Montar unos 6 raviolis por ración. Aliñar y con el aceite de vainilla y un poco de sal Maldon. Servir frío."
+    }
+  ],
+    "descripcion" : "Tarta de Hojaldre, confitura de cebollas,verduras a la parrilla y huevo mollet",
+    "dificultad" : "fácil",
+    "familia" : "E",
+    "ingredientes" : [
+    {
+      "producto" : "Remolacha",
+      "cantidad" : "400 gr."
+    },
+    {
+      "producto" : "Queso Manchego tierno",
+      "cantidad" : "200 gr."
+    },
+    {
+      "producto" : "Queso Roquefort",
+      "cantidad" : "100 gr."
+    },
+    {
+      "producto" : "Nueces",
+      "cantidad" : "4 un."
+    },
+    {
+      "producto" : "",
+      "cantidad" : ""
+    },
+    {
+      "producto" : "Aceite de girasol",
+      "cantidad" : "30 ml"
+    },
+    {
+      "producto" : "Vainas Vainilla",
+      "cantidad" : "2 un."
+    },
+    {
+      "producto" : "Sal Maldon",
+      "cantidad" : "2 gr."
+    }
+  ],
+    "pax" : 4,
+    "src" : "https://firebasestorage.googleapis.com/v0/b/coolinary-dadf5.appspot.com/o/Recetas%2Fhojaldre.jpg?alt=media&token=9e016ddf-dabd-493c-89c6-f7605016c849",
+    "tiempo" : "45 min",
+    "titulo" : "Cebollas, Alcachofas, Champiñones, Huevo"
+  }
+]

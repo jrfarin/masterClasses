@@ -7,61 +7,107 @@
     <h1>Coolinary Market: Recetas 2018 <small><cite>By J.R. Farin</cite></small></h1>
   </div>
     <div class="row">
-        <div class="col-sm-12 col-md-4 noPadding" *ngFor="let receta of _rs.infoRecetas">
-            <div class="row">
-                <div class="col-sm-12 noPadding">
+        <div class="col-sm-12 col-md-6 col-lg-4 noPadding" *ngFor="let receta of _rs.infoRecetas; let i = index">
+            <div class="row mb-3">
+                <div class="col-sm-12 mb-2 noPadding">
                     <img class="card-img-top" [src]="receta.src" alt="">
-                    <div class="col text-center gold">
-                        <span class="icon-family"></span>
-                        <span class="cinzel">E</span>
-                    </div>
-                    <div class="col text-center gold">
-                        <span class="icon-clock"></span>
-                        <span class="cinzel">1'45 h.</span>
-                    </div>
-                    <div class="col text-center gold">
-                        <span class="icon-users"></span>
-                        <span class="cinzel">4</span>
-                    </div>
-                    <div class="col text-center gold">
-                        <span class="icon-gauge"></span>
-                        <span class="cinzel">fácil</span>
-                    </div>
+                </div>
+                <div class="col-sm-12 mb-2 noPadding text-center">
+                    <span class="author gold">By J.R. Farin</span>
+                    <img src="assets/img/recetas/swirl.png" class="center-block">
+                    <h5 class="FS1 gold mt-2 mb-2">{{receta.titulo}}</h5>
+                    <p class="card-text"><em>{{receta.descripcion}}</em></p>
+                    <hr />
+                </div>
+                <div class="col text-center gold">
+                    <span class="icon-family"></span>
+                    <span class="cinzel">{{receta.familia}}</span>
+                </div>
+                <div class="col text-center gold">
+                    <span class="icon-clock"></span>
+                    <span class="cinzel">{{receta.tiempo}}</span>
+                </div>
+                <div class="col text-center gold">
+                    <span class="icon-users"></span>
+                    <span class="cinzel">{{receta.pax}}</span>
+                </div>
+                <div class="col text-center gold">
+                    <span class="icon-gauge"></span>
+                    <span class="cinzel">{{receta.dificultad}}</span>
+                </div>
+
+                <div class="col-sm-12 noPadding">
                     <div class="accordion" id="accordionIng" role="tablist" aria-multiselectable="true">
                         <div class="card">
                             <div class="card-header" id="headingIng">
-                                <a data-toggle="collapse" data-parent="#accordionIng" href="#ingredientes" aria-expanded="true" aria-controls="ingredientes">
+                                <a data-toggle="collapse" data-parent="#accordionIng" href="#ingredientes{{ i + 1 }}" aria-expanded="true" aria-controls="ingredientes">
                                     <h5 class="mb-0">
                                         Ingredientes <i class="fa fa-angle-down rotate-icon"></i>
                                     </h5>
                                 </a>
                             </div>
 
-                            <div id="ingredientes" class="collapse" aria-labelledby="headingIng" data-parent="#accordionIng">
+                            <div id="ingredientes{{ i + 1 }}" class="collapse" aria-labelledby="headingIng" data-parent="#accordionIng">
                                 <div class="card-body">
-                                    <ul>
-                                        <li></li>
-                                    </ul>
+                                    <div class="table-responsive">
+                                      <table class="table table-striped">
+                                          <thead>
+                                            <tr>
+                                              <th>Ingredientes</th>
+                                              <th class="text-right">Cantidad</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                              <tr *ngFor="let item of receta.ingredientes">
+                                                <td>{{item.producto}}</td>
+                                                <td class="text-right">{{item.cantidad}}</td>
+                                              </tr>
+                                          </tbody>
+                                      </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-sm-12 noPadding">
                     <div class="accordion" id="accordionElb" role="tablist" aria-multiselectable="true">
                         <div class="card">
                             <div class="card-header offset_top_i20" id="headingElb">
-                                <a data-toggle="collapse" data-parent="#accordionElb" href="#elaboracion" aria-expanded="true" aria-controls="elaboracion">
+                                <a data-toggle="collapse" data-parent="#accordionElb" href="#elaboracion{{ i + 1 }}" aria-expanded="true" aria-controls="elaboracion">
                                     <h5 class="mb-0">
                                         Elaboración <i class="fa fa-angle-down rotate-icon"></i>
                                     </h5>
                                 </a>
                             </div>
 
-                            <div id="elaboracion" class="collapse" aria-labelledby="headingElb" data-parent="#accordionElb">
+                            <div id="elaboracion{{ i + 1 }}" class="collapse" aria-labelledby="headingElb" data-parent="#accordionElb">
                                 <div class="card-body">
-                                    <ul>
-                                        <li></li>
+                                    <ul *ngFor="let item of receta.Elaboracion">
+                                        <li>{{item.paso}}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 noPadding">
+                    <div class="accordion" id="accordionFin" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header offset_top_i20" id="headingFin">
+                                <a data-toggle="collapse" data-parent="#accordionFin" href="#acabado{{ i + 1 }}" aria-expanded="true" aria-controls="acabado">
+                                    <h5 class="mb-0">
+                                        Acabado <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+
+                            <div id="acabado{{ i + 1 }}" class="collapse" aria-labelledby="headingFin" data-parent="#accordionFin">
+                                <div class="card-body">
+                                    <ul *ngFor="let item of receta.acabado">
+                                        <li>{{item.paso}}</li>
                                     </ul>
                                 </div>
                             </div>
