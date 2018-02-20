@@ -7,7 +7,7 @@
         <h1>Coolinary Market: Ateliers 2018 <small><cite>By J.R. Farin</cite></small></h1>
     </div>
     <div class="row">
-        <div class="card-columns">
+        <div class="card-deck">
             <div class="card text-center" *ngFor="let taller of _is.infoTaller">
                 <img class="card-img-top" [src]="taller.src" alt="{{taller.name}}">
                 <span class="author gold">By J.R. Farin</span>
@@ -21,8 +21,8 @@
                     </ul>
 
                     <h5 class="gold mt-4">Características</h5>
-                    <ul class="emphasis list-unstyled" *ngFor="let item of taller.caracteristicas">
-                        <li class="mb-2">{{item.task}}</li>
+                    <ul class="emphasis list-unstyled">
+                        <li class="mb-2 px-2"  *ngFor="let item of taller.caracteristicas">{{item.task}}</li>
                     </ul>
                     <div class="mb-3">
                         <img src="assets/img/recetas/swirl.png" alt="">
