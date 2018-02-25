@@ -16,6 +16,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MainComponent } from './components/main/main.component';
 import { HomeComponent } from './components/home/home.component';
 import { RecetasComponent } from './components/recetas/recetas.component';
+import { RecetaComponent } from './components/receta/receta.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RecetasComponent } from './components/recetas/recetas.component';
     FooterComponent,
     MainComponent,
     HomeComponent,
-    RecetasComponent
+    RecetasComponent,
+    RecetaComponent
   ],
   imports: [
     BrowserModule,
